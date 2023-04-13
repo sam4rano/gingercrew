@@ -1,20 +1,22 @@
 // import Navbar from "./components/Navbar";
-import Footer from "./pages/Footer";
-import Info from "./pages/Info";
-import Slider from "./pages/Slider";
-import MoreCta from "./pages/MoreCta";
-import Services from "./pages/Services";
-import Statistics from "./pages/Statistics";
-import Testimonial from "./pages/Testimonial";
-import WhatWeDo from "./pages/WhatWeDo";
-import HeroSection from "./pages/HeroSection";
-import ContactUs from "../pages/ContactUs";
+import Footer from "../pages/Footer";
+import Info from "../pages/Info";
+import Slider from "../pages/Slider";
+import MoreCta from "../pages/MoreCta";
+import Services from "../pages/Services";
+import Statistics from "../pages/Statistics";
+import Testimonial from "../pages/Testimonial";
+import WhatWeDo from "../pages/WhatWeDo";
+import HeroSection from "../pages/HeroSection";
+import Navbar from "../components/Navbar";
+import AboutUs from "../pages/AboutUs";
+
 
 
 const Layout = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <HeroSection />
       <Slider />
       <Info />
@@ -23,7 +25,6 @@ const Layout = () => {
       <Services />
       <WhatWeDo />
       <Testimonial />
-      <ContactUs />
       <MoreCta />
       <Footer />
     </>
