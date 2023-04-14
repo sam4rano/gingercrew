@@ -19,8 +19,8 @@ const Layout = () => {
       <Navbar />
       <HeroSection />
       <Slider />
-      <Info />
       <Statistics />
+      <Info />
       <AboutUs />
       <Services />
       <WhatWeDo />
