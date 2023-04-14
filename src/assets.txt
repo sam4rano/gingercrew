@@ -1,0 +1,12 @@
+<h1 className="relative text-5xl leading-12 font-medium font-coolvetica text-white">
+  <span className="absolute top-0 left-0 text-base font-la-belle-aurore text-yellow-400 opacity-60 -mt-8">
+    &lt;h1&gt;
+  </span>
+  <span className="relative z-10">
+    Hello, World!
+    <img src="path-to-your-image" className="hidden md:inline-block ml-4 w-8 h-auto animate-rotate-in animation-delay-1400" alt="Image" />
+  </span>
+  <span className="absolute bottom-0 left-0 text-base font-la-belle-aurore text-yellow-400 opacity-60 mt-4 -ml-4 animate-fade-in animation-delay-1700">
+    &lt;h1/&gt;
+  </span>
+</h1>
