@@ -10,6 +10,7 @@ import WhatWeDo from "../pages/WhatWeDo";
 import HeroSection from "../pages/HeroSection";
 import Navbar from "../components/Navbar";
 import AboutUs from "../pages/AboutUs";
+import Portfolio from "../pages/Portfolio";
 
 
 
@@ -20,6 +21,7 @@ const Layout = () => {
       <HeroSection />
       <Slider />
       <Statistics />
+      <Portfolio />
       <Info />
       <AboutUs />
       <Services />
