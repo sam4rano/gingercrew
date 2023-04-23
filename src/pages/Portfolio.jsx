@@ -9,7 +9,7 @@ import imageFour from "../assets/image2.png";
 
 const Portfolio = () => {
   return (
-    <div className="h-[1300px] max-w-[1440px] text-black bg-white p-8">
+    <div className="h-[1400px] max-w-[1440px] text-black bg-[#DADADA] p-8">
       <div className="p-4 w-[800px]">
         <h1 className="pb-8 text-[30px] font-bold">SELECTED WORKS</h1>
         <h2 className="w-[600px] text-[24px]">
@@ -53,6 +53,12 @@ const Portfolio = () => {
             </div>
             <h1 className="font-bold text-[30px]">Online Booking Solution</h1>
           </div>
+        </div>
+        <div className="flex flex-row justify-around">
+          <h1 className="text-[24px] w-[630px]">Looking For More</h1>
+          <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">
+            All Projects
+          </button>
         </div>
       </div>
       <div></div>
