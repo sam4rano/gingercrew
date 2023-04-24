@@ -91,7 +91,13 @@ const info = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className="flex flex-row justify-around pb-[40px]">
+        <h1 className="text-[24px] w-[630px]">Check for our full expertise</h1>
+        <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">
+          All Services
+        </button>
+      </div>
+      <hr />
     </div>
   );
 }
