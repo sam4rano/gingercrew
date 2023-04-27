@@ -16,8 +16,8 @@ const HeroSection = () => {
   // }, []);
 
   return (
-    <div className="bg-[#0170BA] min-h-[800px] pt-[50px]">
-      <div className="flex flex-col justify-center align-middle p-8 mb-[5rem]">
+    <div className="bg-[#DFEBF0] min-h-[800px] pt-[200px]">
+      <div className="flex flex-col justify-center align-middle p-10 mb-[5rem]">
         {/* <h1 className="relative text-[64px] leading-12 font-medium font-coolvetica text-white">
           <AnimatedLetter
             letterClass={letterClass}
@@ -25,26 +25,29 @@ const HeroSection = () => {
             idx={15}
           />
         </h1> */}
-        <h1 className="text-[45px] font-bold mb-4 p-md text-center mx-auto w-1/2">
+        <h1 className="text-[45px] text-black font-bold mb-4 p-md text-center mx-auto w-1/2">
           WE TRANSFORM YOUR IDEA INTO POSSIBLE REALITIES
         </h1>
-        <h1 className="text-[20px]  mb-4 p-md text-center leading-4">
+        <h1 className="text-[20px]  mb-4 p-md text-black text-center leading-4">
           Our Client love to work with us
-          <span className="font-bold pl-1">GINGER</span>CREW
+          <span className="font-bold pl-1 ">GINGER</span>CREW
         </h1>
       </div>
       <div className="flex flex-row h-[350px] justify-between">
         <div className="flex flex-row">
-          <img src={imageOne} alt="logo" className="pr-4 rounded-sm w-[400px]" />
+          <img
+            src={imageOne}
+            alt="logo"
+            className="pr-4 rounded-sm w-[400px]"
+          />
           <img src={imageTwo} alt="logo" className=" rounded-sm" />
         </div>
         <div className=" p-2 mr-[150px]">
-          <div className="flex flex-col text-[24px] pb-2">
-            <h1>
+          <div className="flex flex-col text-[24px] pb-4">
+            <h1 className='pb-4 text-black'>
               <span className="font-bold">GINGER</span>CREW
             </h1>
-            <br />
-            <h1 className="max-w-[390px] text-[24px]">
+            <h1 className="max-w-[390px] text-[24px] text-black">
               is a strategic software development agency focused on creation of
               technology products for businesses of every level
             </h1>

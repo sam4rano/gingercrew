@@ -23,10 +23,11 @@ const Layout = () => {
       <Statistics />
       <Portfolio />
       <Info />
+      <Testimonial />
       <AboutUs />
       <Services />
       <WhatWeDo />
-      <Testimonial />
+
       <MoreCta />
       <Footer />
     </>
