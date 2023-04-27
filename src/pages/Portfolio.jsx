@@ -36,7 +36,7 @@ const Portfolio = () => {
             <h1 className="font-bold text-[30px]">Online Booking Solution</h1>
           </div>
         </div>
-        <div className="two flex flex-row justify-around p-8">
+        <div className="flex flex-row justify-around p-8 w-full">
           <div className="flex flex-col p-4">
             <img src={imageOne} alt="logo" className="rounded-sm" />
             <div className=" flex flex-row justify-between">
@@ -54,7 +54,7 @@ const Portfolio = () => {
             <h1 className="font-bold text-[30px]">Online Booking Solution</h1>
           </div>
         </div>
-        <div className="flex flex-row justify-around">
+        <div className="flex flex-row justify-around w-full">
           <h1 className="text-[24px] w-[630px]">Looking For More</h1>
           <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">
             All Projects
