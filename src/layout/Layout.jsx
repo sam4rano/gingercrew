@@ -9,7 +9,7 @@ import Testimonial from "../pages/Testimonial";
 import WhatWeDo from "../pages/WhatWeDo";
 import HeroSection from "../pages/HeroSection";
 import Navbar from "../components/Navbar";
-import AboutUs from "../pages/AboutUs";
+// import AboutUs from "../pages/AboutUs";
 import Portfolio from "../pages/Portfolio";
 
 
@@ -19,12 +19,13 @@ const Layout = () => {
     <>
       <Navbar />
       <HeroSection />
+      
       <Slider />
       <About />
       <Portfolio />
       <Info />
       <Testimonial />
-      <AboutUs />
+      
       <Services />
       <WhatWeDo />
 

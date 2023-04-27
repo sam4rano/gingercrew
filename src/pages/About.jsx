@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-[1200px] bg-[#1E1E1E] max-w-[1024]">
+    <div className="h-[1200px] bg-[#1E1E1E] w-full">
       <div>
         <div className="flex flex-row justify-around pt-[20px] pb-[40px] m-[50px]">
           <div>
@@ -26,16 +26,18 @@ const About = () => {
         </h1>
         <hr />
 
-        <div className="mx-auto w-[800px] h-[500px] bg-[#FFFFFF] m-[50px] pb-[50px]"></div>
-        <div className="flex flex-row justify-around">
-          <h1 className="text-[24px] w-[630px]">
+        <div className="mx-auto  h-[500px] bg-[#FFFFFF] m-[50px] pb-[50px]"></div>
+        <div className="flex flex-row justify-between p-8">
+          <h1 className="text-[24px] ">
             We build digital products that are world-class. We help deliver
             value efficiently with our dedicated teams with the right creative
             and technical blend
           </h1>
-          <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">
-            About Us
-          </button>
+          <div className=" ">
+            <button className="bg-white hover:bg-black hover:text-white text-black font-bold rounded w-[200px] text-md h-[50px]">
+              About Us
+            </button>
+          </div>
         </div>
       </div>
     </div>

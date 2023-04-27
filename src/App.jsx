@@ -12,14 +12,14 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Blogs from "./pages/Blogs";
 import LiveTools from "./pages/LiveTools";
-import AboutUs from "./pages/AboutUs";
+import About from "./pages/About";
 import Process from "./pages/Process";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
   
-      <Route path="about-us" element={<AboutUs />} />
+      <Route path="about-us" element={<About />} />
       <Route path="process" element={<Process />} />
       <Route path="services" element={<Services />} />
       <Route path="portfolio" element={<Portfolio />} />

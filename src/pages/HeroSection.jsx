@@ -16,7 +16,7 @@ const HeroSection = () => {
   // }, []);
 
   return (
-    <div className="bg-[#DFEBF0] min-h-[800px] pt-[100px] max-w-[1024px] flex flex-col">
+    <div className="bg-[#DFEBF0] min-h-[800px] pt-[100px] w-full flex flex-col">
       <div className="flex flex-col justify-center align-middle p-10">
         {/* <h1 className="relative text-[64px] leading-12 font-medium font-coolvetica text-white">
           <AnimatedLetter
@@ -42,12 +42,12 @@ const HeroSection = () => {
           />
           <img src={imageTwo} alt="logo" className=" rounded-sm" />
         </div>
-        <div className=" p-2 mr-[150px]">
+        <div className=" p-2 ">
           <div className="flex flex-col text-[24px] pb-4">
             <h1 className="pb-4 text-black">
               <span className="font-bold">GINGER</span>CREW
             </h1>
-            <h1 className="max-w-[390px] text-[24px] text-black">
+            <h1 className=" text-[24px] text-black">
               is a strategic software development agency focused on creation of
               technology products for businesses of every level
             </h1>
@@ -66,6 +66,9 @@ const HeroSection = () => {
         </div>
       </div>
     </div>
+    // <div className="bg-[#DFEBF0] min-h-[800px]">
+
+    // </div>
   );
 }
 

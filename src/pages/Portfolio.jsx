@@ -9,7 +9,7 @@ import imageFour from "../assets/image2.png";
 
 const Portfolio = () => {
   return (
-    <div className="h-[1400px] max-w-[1024px] text-black bg-[#DADADA] p-8">
+    <div className="h-[1400px] w-full text-black bg-[#DADADA] p-8">
       <div className="p-4 w-[800px]">
         <h1 className="pb-8 text-[30px] font-bold">SELECTED WORKS</h1>
         <h2 className="w-[600px] text-[24px]">
@@ -18,8 +18,8 @@ const Portfolio = () => {
         </h2>
       </div>
       <div className="flex flex-col p-8">
-        <div className="one flex flex-row justify-around p-8">
-          <div className="flex flex-col">
+        <div className="one flex flex-row justify-between p-8">
+          <div className="flex flex-col p-4">
             <img src={imageOne} alt="logo" className="rounded-sm" />
             <div className=" flex flex-row justify-between">
               <h1>TECH</h1>
@@ -27,7 +27,7 @@ const Portfolio = () => {
             </div>
             <h1 className="font-bold text-[30px]">Online Booking Solution</h1>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-4">
             <img src={imageTwo} alt="logo" className=" rounded-sm" />
             <div className="flex flex-row justify-between">
               <h1>TECH</h1>
@@ -37,7 +37,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="two flex flex-row justify-around p-8">
-          <div className="flex flex-col">
+          <div className="flex flex-col p-4">
             <img src={imageOne} alt="logo" className="rounded-sm" />
             <div className=" flex flex-row justify-between">
               <h1>TECH</h1>
@@ -45,7 +45,7 @@ const Portfolio = () => {
             </div>
             <h1 className="font-bold text-[30px]">Online Booking Solution</h1>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-4">
             <img src={imageTwo} alt="logo" className=" rounded-sm" />
             <div className="flex flex-row justify-between">
               <h1>TECH</h1>
