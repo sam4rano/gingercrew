@@ -85,7 +85,7 @@ const Navbar = () => {
 
       <nav
         className="flex flex-row justify-around list-none bg-[#FFFFFF]
- text-black py-4 text-lg lg:fixed lg:top-0 left-0 right-0 opacity-90 w-full"
+ text-black py-4 text-lg fixed top-0 left-0 right-0 opacity-90 w-full"
       >
         <li className="p-[8px]">
           <Link to="/">
