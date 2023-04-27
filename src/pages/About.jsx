@@ -1,8 +1,8 @@
 import React from 'react'
 
-const statistics = () => {
+const About = () => {
   return (
-    <div className="h-[1200px] bg-[#1E1E1E]">
+    <div className="h-[1200px] bg-[#1E1E1E] max-w-[1024]">
       <div>
         <div className="flex flex-row justify-around pt-[20px] pb-[40px] m-[50px]">
           <div>
@@ -19,14 +19,14 @@ const statistics = () => {
           </div>
         </div>
         <hr />
-        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-[1144px] m-[50px]">
+        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-[800px] m-[50px]">
           By staying connected with us, we can make your product idea come to
           reality more quickly with our efficient work rates on creation of
           technology products for businesses of every level
         </h1>
         <hr />
 
-        <div className="mx-auto w-[1140px] h-[500px] bg-[#FFFFFF] m-[50px] pb-[50px]"></div>
+        <div className="mx-auto w-[800px] h-[500px] bg-[#FFFFFF] m-[50px] pb-[50px]"></div>
         <div className="flex flex-row justify-around">
           <h1 className="text-[24px] w-[630px]">
             We build digital products that are world-class. We help deliver
@@ -42,4 +42,4 @@ const statistics = () => {
   );
 }
 
-export default statistics
+export default About

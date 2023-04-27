@@ -4,7 +4,7 @@ import Info from "../pages/Info";
 import Slider from "../pages/Slider";
 import MoreCta from "../pages/MoreCta";
 import Services from "../pages/Services";
-import Statistics from "../pages/Statistics";
+import About from "../pages/About";
 import Testimonial from "../pages/Testimonial";
 import WhatWeDo from "../pages/WhatWeDo";
 import HeroSection from "../pages/HeroSection";
@@ -20,7 +20,7 @@ const Layout = () => {
       <Navbar />
       <HeroSection />
       <Slider />
-      <Statistics />
+      <About />
       <Portfolio />
       <Info />
       <Testimonial />
