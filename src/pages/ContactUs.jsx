@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
     <div
-      className="p-8 flex flex-row justify-around bg-[#F5F5F5]
+      className="p-4 flex flex-row justify-around bg-[#F5F5F5]
 "
     >
       <div className="w-1/2">
@@ -122,6 +122,6 @@ const ContactUs = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContactUs
+export default ContactUs;
