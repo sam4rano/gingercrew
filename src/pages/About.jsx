@@ -2,22 +2,67 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-[1200px] bg-[#1E1E1E] w-full">
+    <div className="h-[1200px] bg-[#1E1E1E] w-full ">
       <div>
         <div className="flex flex-row justify-around pt-[20px] pb-[40px] m-[50px]">
           <div>
-            <div>
+            <div className="flex flex-row">
               <h1 className="font-bold text-[80px]">20</h1>
-              
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="blue"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
             </div>
             <h1>Happy clients</h1>
           </div>
           <div>
-            <h1 className="font-bold text-[80px]">20</h1>
-            <h1>Launched Startups</h1>
+            <div className="flex flex-row">
+              <h1 className="font-bold text-[80px]">20</h1>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="red"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
+            </div>
+            <h1> Launched Startups</h1>
           </div>
           <div>
-            <h1 className="font-bold text-[80px]">20</h1>
+            <div className="flex flex-row">
+              <h1 className="font-bold text-[80px]">20</h1>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="yellow"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
+            </div>
             <h1>Completed Projects</h1>
           </div>
         </div>
@@ -29,7 +74,7 @@ const About = () => {
         </h1>
         <hr />
 
-        <div className="mx-auto  h-[500px] bg-[#FFFFFF] m-[50px] pb-[50px]"></div>
+        <div className="mx-auto max-w-[800px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] z-0"></div>
         <div className="flex flex-row justify-between p-8">
           <h1 className="text-[24px] max-w-[500px]">
             We build digital products that are world-class. We help deliver

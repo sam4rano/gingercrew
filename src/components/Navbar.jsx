@@ -61,7 +61,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between bg-white p-6 fixed top-0 left-0 right-0 opacity-90 w-full">
+    <nav className="flex flex-wrap items-center justify-between bg-white p-6 fixed top-0 left-0 right-0 opacity-90 w-full z-10">
       <Link to="/" className="flex items-center text-black font-bold">
         <span>GINGER</span>CREW
       </Link>
@@ -85,33 +85,16 @@ const Navbar = () => {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="34"
-            height="34"
-            viewBox="0 0 34 34"
+            fill=""
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#000"
+            class="w-6 h-6"
           >
-            <line
-              x1="5"
-              y1="14"
-              x2="24"
-              y2="14"
-              stroke="black"
-              stroke-width="2"
-            />
-            <line
-              x1="5"
-              y1="18"
-              x2="20"
-              y2="18"
-              stroke="black"
-              stroke-width="2"
-            />
-            <line
-              x1="5"
-              y1="24"
-              x2="22"
-              y2="24"
-              stroke="black"
-              stroke-width="2"
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </svg>
         )}

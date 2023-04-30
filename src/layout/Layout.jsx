@@ -2,7 +2,7 @@
 import Footer from "../pages/Footer";
 import Info from "../pages/Info";
 import Slider from "../pages/Slider";
-import MoreCta from "../pages/MoreCta";
+import ContactUs from "../pages/ContactUs";
 import Services from "../pages/Services";
 import About from "../pages/About";
 import Testimonial from "../pages/Testimonial";
@@ -25,11 +25,11 @@ const Layout = () => {
       <Portfolio />
       <Info />
       <Testimonial />
-      
+      <ContactUs />
       <Services />
       <WhatWeDo />
 
-      <MoreCta />
+      {/* <MoreCta /> */}
       <Footer />
     </>
   );
