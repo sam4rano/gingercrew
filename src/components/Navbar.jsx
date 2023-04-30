@@ -61,7 +61,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between bg-white p-6 fixed top-0 left-0 right-0 opacity-90 w-full z-10">
+    <nav className="flex flex-wrap items-center justify-between bg-white p-2 fixed top-0 left-0 right-0 opacity-90 w-full z-10">
       <Link to="/" className="flex items-center text-black font-bold">
         <span>GINGER</span>CREW
       </Link>
@@ -153,7 +153,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className="p-[12px] text-black text-[16px] border-solid border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
+      <div className="p-[8px] text-black text-[16px] border-solid border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
         <Link to="/contact">Start A Project</Link>
       </div>
     </nav>
