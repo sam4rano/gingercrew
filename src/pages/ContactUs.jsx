@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 const ContactUs = () => {
   return (
-    <div className="p-8 flex flex-row justify-around bg-white">
+    <div
+      className="p-8 flex flex-row justify-around bg-[#F5F5F5]
+"
+    >
       <div className="w-1/2">
         <div className="flex flex-col">
           <p to="/" className="flex items-center text-black font-bold">
@@ -15,7 +18,7 @@ const ContactUs = () => {
           </p>
         </div>
         <div>
-          <p className='text-black font-bold'>Follow us</p>
+          <p className="text-black font-bold">Follow us</p>
           <div className="flex flex-row">
             <Link>
               <svg
@@ -51,7 +54,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="w-1/2 flex flex-col">
-        <div className='p-4'>
+        <div className="p-4">
           <input
             name="fullname"
             type="password"
@@ -65,9 +68,8 @@ const ContactUs = () => {
             placeholder="Fullname"
           />
         </div>
-        <div className='p-4'>
+        <div className="p-4">
           <input
-           
             name="email"
             type="email"
             autoComplete="current-password"
@@ -80,8 +82,7 @@ const ContactUs = () => {
             placeholder="Email"
           />
         </div>
-        <div className='p-4'>
-          
+        <div className="p-4">
           <input
             name="deadline"
             type="password"
@@ -95,10 +96,8 @@ const ContactUs = () => {
             placeholder="Deadline Time"
           />
         </div>
-        <div className='p-4'>
-    
+        <div className="p-4">
           <input
-           
             name="budget"
             type="password"
             autoComplete="current-password"
@@ -113,11 +112,13 @@ const ContactUs = () => {
         </div>
 
         <textarea
-         
           rows="4"
           className="block p-2.5 w-[438px] mx-auto text-sm text-gray-900 bg-gray-50  border dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Description"
         ></textarea>
+        <button className="bg-black hover:bg-gray m-4 w-[438px] hover:text-gray-100 text-white font-bold rounded text-md h-[40px] mx-auto">
+          Get A Quote
+        </button>
       </div>
     </div>
   );

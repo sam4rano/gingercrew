@@ -9,7 +9,7 @@ import Testimonial from "../pages/Testimonial";
 import WhatWeDo from "../pages/WhatWeDo";
 import HeroSection from "../pages/HeroSection";
 import Navbar from "../components/Navbar";
-// import AboutUs from "../pages/AboutUs";
+import MoreCta from "../pages/MoreCta";
 import Portfolio from "../pages/Portfolio";
 
 
@@ -19,17 +19,13 @@ const Layout = () => {
     <>
       <Navbar />
       <HeroSection />
-      
       <Slider />
       <About />
       <Portfolio />
       <Info />
       <Testimonial />
       <ContactUs />
-      <Services />
-      <WhatWeDo />
-
-      {/* <MoreCta /> */}
+      <MoreCta />
       <Footer />
     </>
   );

@@ -21,7 +21,20 @@ const info = () => {
                   Product Design
                 </span>
               </div>
-              <hr className="w-[40px] mt-[20px]" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="white"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
             </div>
           </div>
           <div className="flex flex-row justify-between pb-[40px]">
@@ -49,7 +62,20 @@ const info = () => {
                   Product Design
                 </span>
               </div>
-              <hr className="w-[40px] mt-[20px]" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="white"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
             </div>
             <hr className="pt-[30px]" />
           </div>
@@ -61,7 +87,20 @@ const info = () => {
                   Product Design
                 </span>
               </div>
-              <hr className="w-[40px] mt-[20px]" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="white"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
             </div>
             <hr />
           </div>
@@ -73,7 +112,20 @@ const info = () => {
                   Product Design
                 </span>
               </div>
-              <hr className="w-[40px] mt-[20px]" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="white"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
             </div>
             <hr />
           </div>
@@ -85,14 +137,29 @@ const info = () => {
                   Product Design
                 </span>
               </div>
-              <hr className="w-[40px] mt-[20px]" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="white"
+                className="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
+              </svg>
             </div>
             <hr />
           </div>
         </div>
       </div>
       <div className="flex flex-row justify-around pb-[40px] ">
-        <h1 className="text-[24px] max-w-[300px]">Check for our full expertise</h1>
+        <h1 className="text-[24px] max-w-[300px]">
+          Check for our full expertise
+        </h1>
         <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">
           All Services
         </button>
