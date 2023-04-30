@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
  
   return (
-    <nav className="flex h-[200px] flex-col justify-between bg-black p-4 w-full">
-      <div className="flex  flex-row justify-between">
+    <nav className="flex h-[200px] flex-col md:justify-around justify-between bg-black p-4 w-full md:h-[400px] sm:h-[400px]">
+      <div className="flex  flex-row justify-between md:flex-col sm:flex-col">
         <div className="flex flex-col">
           <Link to="/" className="flex items-center pb-4">
             <span className="font-bold">GINGER</span>CREW
