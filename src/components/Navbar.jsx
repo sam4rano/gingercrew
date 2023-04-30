@@ -62,8 +62,8 @@ const Navbar = () => {
 
   return (
     <nav className="flex flex-wrap items-center justify-between bg-white p-2 fixed top-0 left-0 right-0 opacity-90 w-full z-10">
-      <Link to="/" className="flex items-center text-black font-bold">
-        <span>GINGER</span>CREW
+      <Link to="/" className="flex items-center text-black">
+        <span className='font-bold'>GINGER</span>CREW
       </Link>
       <button
         type="button"

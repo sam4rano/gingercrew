@@ -7,8 +7,8 @@ const Footer = () => {
     <nav className="flex h-[200px] flex-col justify-between bg-black p-4 w-full">
       <div className="flex  flex-row justify-between">
         <div className="flex flex-col">
-          <Link to="/" className="flex items-center font-bold pb-4">
-            <span>GINGER</span>CREW
+          <Link to="/" className="flex items-center pb-4">
+            <span className="font-bold">GINGER</span>CREW
           </Link>
           <h1 className="w-[300px]">
             Strategic software development agency focused on creation of
