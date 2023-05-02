@@ -14,7 +14,7 @@ const About = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                stroke-width="1.5"
                 stroke="blue"
                 className="w-8 h-8"
               >
@@ -72,13 +72,13 @@ const About = () => {
             <h1 className="text-white sm:text-[20px]">Completed Projects</h1>
           </div>
         </div>
-        <hr className="md:p-2 md:min-w-[400px]" />
+        <hr className="md:p-2 w-full p-2" />
         <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-full m-[50px] sm:text-[20px] ">
           By staying connected with us, we can make your product idea come to
           reality more quickly with our efficient work rates on creation of
           technology products for businesses of every level
         </h1>
-        <hr />
+        <hr className="w-full p-2" />
 
         <div className="mx-auto max-w-[800px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] md:w-[500px]"></div>
         <div className="flex flex-row justify-between p-8 sm:justify-between">
