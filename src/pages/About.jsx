@@ -25,7 +25,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <h1 className="text-white sm:text-[20px]">Happy clients</h1>
+            <h1 className="text-white sm:text-[18px]">Happy clients</h1>
           </div>
           <div>
             <div className="flex flex-row">
@@ -47,7 +47,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <h1 className="text-white sm:text-[20px]"> Launched Startups</h1>
+            <h1 className="text-white sm:text-[18px]"> Launched Startups</h1>
           </div>
           <div>
             <div className="flex flex-row">
@@ -69,7 +69,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <h1 className="text-white sm:text-[20px]">Completed Projects</h1>
+            <h1 className="text-white sm:text-[18px]">Completed Projects</h1>
           </div>
         </div>
         <hr className="md:p-2 w-full p-2" />
