@@ -66,15 +66,15 @@ const About = () => {
             <h1>Completed Projects</h1>
           </div>
         </div>
-        <hr />
-        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-full m-[50px]">
+        <hr className="md:p-2 md:min-w-[400px]" />
+        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-full m-[50px] ">
           By staying connected with us, we can make your product idea come to
           reality more quickly with our efficient work rates on creation of
           technology products for businesses of every level
         </h1>
         <hr />
 
-        <div className="mx-auto max-w-[800px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] z-0"></div>
+        <div className="mx-auto max-w-[800px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] md:w-[500px]"></div>
         <div className="flex flex-row justify-between p-8">
           <h1 className="text-[24px] max-w-[500px]">
             We build digital products that are world-class. We help deliver
