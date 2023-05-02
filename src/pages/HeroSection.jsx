@@ -25,7 +25,7 @@ const HeroSection = () => {
             idx={15}
           />
         </h1> */}
-        <h1 className="text-[45px] text-black font-bold mb-8 p-md sm:text-[25px] sm:mx-auto sm:p-2 sm:w-full text-center mx-auto md:text-[38px] md:w-full">
+        <h1 className="text-[45px] text-black font-bold mb-8 sm:text-[25px] sm:mx-auto sm:p-2 sm:w-full text-center mx-auto md:text-[38px] md:w-full">
           WE TRANSFORM YOUR IDEA INTO POSSIBLE REALITIES
         </h1>
         <h1 className="text-[16px]  mb-4 sm:text-[12px] sm:flex-row sm:w-full sm:justify-around p-md text-black text-center leading-4 flex flex-row justify-around">
@@ -69,25 +69,25 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className=" p-2  w-[400px] md:p-4 pt-2 md:mx-auto sm:mx-auto sm:pt-10">
+        <div className=" p-2 sm:w-[320px] w-[400px] md:p-4 pt-2 md:mx-auto sm:mx-auto sm:pt-10">
           <div className="flex flex-col text-[24px] pb-4">
             <h1 className="pb-4 text-black">
               <span className="font-bold">GINGER</span>CREW
             </h1>
-            <h1 className=" text-[24px] text-black">
+            <h1 className=" text-[24px] text-black sm:text-[16px]">
               is a strategic software development agency focused on creation of
               technology products for businesses of every level
             </h1>
           </div>
 
-          <div className="flex flex-row justify-between  ">
-            <button className="bg-black hover:bg-white hover:text-black text-white font-bold rounded w-[200px] text-md h-[50px]">
+          <div className="flex flex-row justify-between sm:flex-col sm:p-4 ">
+            <button className="bg-black sm:mb-[1rem] hover:bg-white hover:text-black text-white font-bold rounded sm:mx-auto w-[200px] text-md h-[50px]">
               START A PROJECT
             </button>
-            <div className="flex flex-row justify-around h-[80px] relative ">
-              <div className="h-[50px] w-[50px] rounded-full bg-black z-20 relative"></div>
-              <div className="h-[50px] w-[50px] rounded-full bg-black z-10 relative"></div>
-              <div className="h-[50px] w-[50px] rounded-full bg-black z-0 relative"></div>
+            <div className="flex flex-row justify-around h-[80px] sm:mx-auto">
+              <div className="h-[50px] w-[50px] rounded-full bg-black"></div>
+              <div className="h-[50px] w-[50px] rounded-full bg-black"></div>
+              <div className="h-[50px] w-[50px] rounded-full bg-black"></div>
             </div>
           </div>
         </div>

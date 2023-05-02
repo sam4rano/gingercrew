@@ -47,7 +47,7 @@ const info = () => {
               <li>We solve and scale</li>
             </ul>
             <div className="flex flex-col ">
-              <h1 className="pb-4 w-[400px]">
+              <h1 className="pb-4 w-[400px] sm:w-[300px]">
                 Let’s start building on your idea. We will work with you n
                 shaping your idea into a befitting solution with a solid plan
               </h1>
@@ -160,7 +160,7 @@ const info = () => {
         </div>
       </div>
       <div className="flex flex-row justify-between pb-[40px] ">
-        <h1 className="text-[24px] flex flex-wrap font-bold text-white">
+        <h1 className="text-[24px] flex flex-wrap font-bold text-white sm:text-[20px]">
           Check for our full expertise
         </h1>
         <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">

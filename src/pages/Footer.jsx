@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
  
   return (
-    <nav className="flex h-[140px] flex-col justify-between bg-black p-4 w-full md:h-[250px] sm:h-[300px]">
+    <nav className="flex h-[140px] flex-col justify-between bg-black p-4 w-full md:h-[250px] sm:h-[350px]">
       <div className="flex  flex-row w-full justify-between p-4 sm:flex-wrap">
         <div className="flex flex-col justify-between ">
           <Link to="/" className="flex items-center pb-4">
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <ul className="flex flex-row w-full  justify-between mx-auto">
+      <ul className="flex flex-row w-full  justify-between mx-auto sm:flex-wrap">
         <li>
           <Link
             to="/services"
