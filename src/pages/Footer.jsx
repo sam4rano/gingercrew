@@ -4,23 +4,23 @@ import { Link } from "react-router-dom";
 const Footer = () => {
  
   return (
-    <nav className="flex h-[200px] flex-col md:justify-around justify-between bg-black p-4 w-full md:h-[400px] sm:h-[400px]">
-      <div className="flex  flex-row justify-between md:flex-col sm:flex-col">
-        <div className="flex flex-col">
+    <nav className="flex h-[140px] flex-col justify-between bg-black p-4 w-full md:h-[250px] sm:h-[300px]">
+      <div className="flex  flex-row w-full justify-between p-4 sm:flex-wrap">
+        <div className="flex flex-col justify-between ">
           <Link to="/" className="flex items-center pb-4">
-            <span className="font-bold">GINGER</span>CREW
+            <span className="font-bold text-white">GINGER</span>CREW
           </Link>
-          <h1 className="w-[300px]">
+          <h1 className="w-[300px] text-white">
             Strategic software development agency focused on creation of
             technology products for{" "}
           </h1>
         </div>
         <div>
-          <h1 className="pb-4">Contact us</h1>
-          <h1>team@ginger.agency</h1>
+          <h1 className="pb-4 text-white">Contact us</h1>
+          <h1 className="text-white">team@ginger.agency</h1>
         </div>
-        <div>
-          <p className=" font-bold pb-4">Find us here</p>
+        <div className="flex flex-col">
+          <p className=" font-bold pb-4 text-white">Find us here</p>
           <div className="flex flex-row justify-evenly">
             <Link>
               <svg
@@ -65,11 +65,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <ul className="flex flex-wrap w-full  justify-between mx-auto">
+      <ul className="flex flex-row w-full  justify-between mx-auto">
         <li>
           <Link
             to="/services"
-            className="block mt-4 md:inline-block md:mt-0 mr-4 "
+            className="block mt-4 md:inline-block md:mt-0 mr-4 text-white"
           >
             Services
           </Link>
@@ -77,7 +77,7 @@ const Footer = () => {
         <li>
           <Link
             to="/portfolio"
-            className="block mt-4 md:inline-block md:mt-0 mr-4 "
+            className="block mt-4 md:inline-block md:mt-0 mr-4 text-white"
           >
             Portfolio
           </Link>
@@ -85,7 +85,7 @@ const Footer = () => {
         <li>
           <Link
             to="/about-us"
-            className="block mt-4 md:inline-block md:mt-0 mr-4 "
+            className="block mt-4 md:inline-block md:mt-0 mr-4 text-white"
           >
             About us
           </Link>
@@ -93,7 +93,7 @@ const Footer = () => {
         <li>
           <Link
             to="/process"
-            className="block mt-4 md:inline-block md:mt-0 mr-4"
+            className="block mt-4 md:inline-block md:mt-0 mr-4 text-white"
           >
             Process
           </Link>
@@ -101,13 +101,16 @@ const Footer = () => {
         <li>
           <Link
             to="/livetools"
-            className="block mt-4 md:inline-block md:mt-0 mr-4"
+            className="block mt-4 md:inline-block md:mt-0 mr-4 text-white"
           >
             Live Tools
           </Link>
         </li>
         <li>
-          <Link to="/blogs" className="block mt-4 md:inline-block md:mt-0">
+          <Link
+            to="/blogs"
+            className="block mt-4 md:inline-block md:mt-0 text-white"
+          >
             Blogs
           </Link>
         </li>

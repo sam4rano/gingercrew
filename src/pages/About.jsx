@@ -2,12 +2,14 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-[1200px] bg-[#1E1E1E] w-full ">
+    <div className="h-[1200px] bg-[#1E1E20] w-full sm:h-[1300px]">
       <div>
         <div className="flex flex-row justify-around pt-[20px] pb-[40px] m-[50px]">
           <div>
             <div className="flex flex-row">
-              <h1 className="font-bold text-[80px]">20</h1>
+              <h1 className="font-bold text-[80px] text-white sm:text-[50px]">
+                20
+              </h1>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -23,11 +25,13 @@ const About = () => {
                 />
               </svg>
             </div>
-            <h1>Happy clients</h1>
+            <h1 className="text-white sm:text-[20px]">Happy clients</h1>
           </div>
           <div>
             <div className="flex flex-row">
-              <h1 className="font-bold text-[80px]">20</h1>
+              <h1 className="font-bold text-[80px] text-white sm:text-[50px]">
+                20
+              </h1>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -43,11 +47,13 @@ const About = () => {
                 />
               </svg>
             </div>
-            <h1> Launched Startups</h1>
+            <h1 className="text-white sm:text-[20px]"> Launched Startups</h1>
           </div>
           <div>
             <div className="flex flex-row">
-              <h1 className="font-bold text-[80px]">20</h1>
+              <h1 className="font-bold text-[80px] text-white sm:text-[50px]">
+                20
+              </h1>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -63,11 +69,11 @@ const About = () => {
                 />
               </svg>
             </div>
-            <h1>Completed Projects</h1>
+            <h1 className="text-white sm:text-[20px]">Completed Projects</h1>
           </div>
         </div>
         <hr className="md:p-2 md:min-w-[400px]" />
-        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-full m-[50px] ">
+        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-full m-[50px] sm:text-[20px] ">
           By staying connected with us, we can make your product idea come to
           reality more quickly with our efficient work rates on creation of
           technology products for businesses of every level
@@ -75,14 +81,14 @@ const About = () => {
         <hr />
 
         <div className="mx-auto max-w-[800px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] md:w-[500px]"></div>
-        <div className="flex flex-row justify-between p-8">
-          <h1 className="text-[24px] max-w-[500px]">
+        <div className="flex flex-row justify-between p-8 sm:justify-between">
+          <h1 className="text-[24px] max-w-[500px] text-white sm:text-[18px] sm:w-[150px]">
             We build digital products that are world-class. We help deliver
             value efficiently with our dedicated teams with the right creative
             and technical blend
           </h1>
-          <div className=" ">
-            <button className="bg-white hover:bg-black hover:text-white text-black font-bold rounded max-w-[220px] flex align-middle text-[20] p-3 h-[50px]">
+          <div className="sm:w-1/2 ">
+            <button className="bg-white hover:bg-black hover:text-white text-black font-bold rounded sm:w-[150px] sm:text-center sm:flex sm:justify-center sm:align-middle max-w-[220px] flex align-middle text-[20] p-3 h-[50px]">
               About Us
             </button>
           </div>

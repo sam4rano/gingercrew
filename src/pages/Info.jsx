@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 
 const info = () => {
   return (
-    <div className="h-[1250px] p-4 w-full mx-auto">
+    <div
+      className="h-[1250px] sm:h-[1400px] p-4 w-full mx-auto bg-gradient-to-r from-[#1E1E1E] to-[#4D4D4D]
+"
+    >
       <div className="flex flex-col p-6">
-        <h1 className="pb-[20px]">PRODUCTS & SERVICES</h1>
-        <h1 className="font-bold text-[30px] w-[450px] ">
+        <h1 className="pb-[20px] text-white sm:mx-auto">PRODUCTS & SERVICES</h1>
+        <h1 className="font-bold text-[30px] w-[450px] sm:w-[300px] text-white sm:text-[25px] sm:mx-auto">
           We follow through every product livecycle phase
         </h1>
       </div>
@@ -14,7 +17,7 @@ const info = () => {
       <div className="m-2">
         <div>
           <div>
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between text-white">
               <div>
                 01
                 <span className="pl-[10px] font-bold text-[25px]">
@@ -37,7 +40,7 @@ const info = () => {
               </svg>
             </div>
           </div>
-          <div className="flex flex-row justify-between pb-[40px]">
+          <div className="flex flex-row justify-between pb-[40px] text-white sm:flex-col">
             <ul className="list-disc p-4">
               <li>Focus on making a usable and efficient solution</li>
               <li>We build and Maintain</li>
@@ -54,7 +57,7 @@ const info = () => {
           <hr />
         </div>
         <div className="mt-[50px]">
-          <div className="pb-[30px]">
+          <div className="pb-[30px] text-white">
             <div className="flex flex-row justify-between pb-[50px]">
               <div>
                 01
@@ -79,7 +82,7 @@ const info = () => {
             </div>
             <hr className="pt-[30px]" />
           </div>
-          <div className="pb-[30px]">
+          <div className="pb-[30px] text-white">
             <div className="flex flex-row justify-between pb-[50px]">
               <div>
                 01
@@ -104,7 +107,7 @@ const info = () => {
             </div>
             <hr />
           </div>
-          <div className="pb-[40px]">
+          <div className="pb-[40px] text-white">
             <div className="flex flex-row justify-between pb-[50px]">
               <div>
                 01
@@ -129,7 +132,7 @@ const info = () => {
             </div>
             <hr />
           </div>
-          <div className="pb-[40px]">
+          <div className="pb-[40px] text-white">
             <div className="flex flex-row justify-between pb-[50px]">
               <div>
                 01
@@ -157,7 +160,7 @@ const info = () => {
         </div>
       </div>
       <div className="flex flex-row justify-between pb-[40px] ">
-        <h1 className="text-[24px] flex flex-wrap font-bold">
+        <h1 className="text-[24px] flex flex-wrap font-bold text-white">
           Check for our full expertise
         </h1>
         <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">

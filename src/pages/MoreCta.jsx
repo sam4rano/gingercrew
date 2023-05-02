@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const moreCta = () => {
   return (
-    <div className="flex flex-col bg-white p-4 h-[400px] align-middle justify-center">
+    <div className="flex flex-col bg-white p-4 h-[400px] align-middle justify-center w-full">
       <div className="flex flex-col text-black mx-auto">
         <h1 className='flex justify-center font-bold text-[16px] p-4'>Ready?</h1>
         <h1 className='font-bold text-[40px] mx-auto w-[400px] pb-4 flex justify-center align-middle'>Let’s Get To Work on your Next Idea!</h1>

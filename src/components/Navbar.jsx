@@ -46,7 +46,7 @@
 // export default Navbar;
 
 
-
+//fixed top-0 left-0 right-0
 
 
 
@@ -61,13 +61,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-between md:justify-around md bg-white p-2 fixed top-0 left-0 right-0 opacity-90 w-full sm:justify-around md:w-100%">
+    <nav className="flex flex-wrap items-center justify-around md:justify-around bg-white p-2 opacity-90 w-full sm:justify-around md:w-100%">
       <Link to="/" className="flex items-center text-black">
         <span className="font-bold">GINGER</span>CREW
       </Link>
       <button
         type="button"
-        className="block md:hidden border border-white rounded px-2 py-1 ml-auto"
+        className="block md:hidden border border-white rounded px-3 py-2 ml-auto"
         onClick={toggleMenu}
       >
         {isOpen ? (

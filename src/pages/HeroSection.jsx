@@ -16,8 +16,8 @@ const HeroSection = () => {
   // }, []);
 
   return (
-    <div className="bg-[#DFEBF0] min-h-[1000px] sm:h-[1100px] pt-[120px] w-full flex flex-col md:p-8 sm:p-6">
-      <div className="flex flex-col justify-center align-middle p-[150px] md:mb-4">
+    <div className="bg-[#DFEBF0] min-h-[1100px] md:h-[1500px] sm:h-[1300px] pt-[120px] w-full flex flex-col md:p-8 sm:p-6">
+      <div className="flex flex-col justify-center align-middle p-[150px] sm:mb-[3rem] md:mb-4 sm:w-full md:w-full sm:pt-[50px]">
         {/* <h1 className="relative text-[64px] leading-12 font-medium font-coolvetica text-white">
           <AnimatedLetter
             letterClass={letterClass}
@@ -25,10 +25,10 @@ const HeroSection = () => {
             idx={15}
           />
         </h1> */}
-        <h1 className="text-[45px] text-black font-bold mb-8 p-md text-center mx-auto md:text-[38px]">
+        <h1 className="text-[45px] text-black font-bold mb-8 p-md sm:text-[25px] sm:mx-auto sm:p-2 sm:w-full text-center mx-auto md:text-[38px] md:w-full">
           WE TRANSFORM YOUR IDEA INTO POSSIBLE REALITIES
         </h1>
-        <h1 className="text-[16px]  mb-4 p-md text-black text-center leading-4 flex flex-row justify-around">
+        <h1 className="text-[16px]  mb-4 sm:text-[12px] sm:flex-row sm:w-full sm:justify-around p-md text-black text-center leading-4 flex flex-row justify-around">
           Our Client love to work with us
           <span className="flex flex-row pl-[-3rem]">
             <svg
@@ -45,7 +45,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div className="flex flex-row h-[350px] justify-around pb-[70px] w-full md:flex-col md:pt-8 sm:flex-col sm:pt-10">
-        <div className="flex flex-row w-[700px] h-[350px] sm:justify-around">
+        <div className="flex flex-row max-w-[700px] h-[350px] sm:justify-around ">
           <div className="flex flex-col md:mx-auto">
             <img
               src={imageOne}
@@ -57,7 +57,7 @@ const HeroSection = () => {
               <h1 className="text-black font-bold">Saas</h1>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
             <img
               src={imageTwo}
               alt="logo"

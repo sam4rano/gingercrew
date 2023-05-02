@@ -2,8 +2,8 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div className="bg-[#DADADA] w-full h-[300px] md:">
-      <div className="mx-auto max-w-[700px] h-[300px] bg-[#FFFFFF] absolute left-0 right-0 top-[297rem]  z-0">
+    <div className="bg-[#DADADA] w-full h-[300px] sm:h-400px">
+      <div className="mx-auto max-w-[700px] h-[300px] sm:h-[200px] bg-[#FFFFFF] absolute left-0 right-0 top-[320rem] sm:hidden sm:w-full">
         <h1 className="font-bold text-black text-center flex justify-center align-middle ">
           Testimonial
         </h1>
