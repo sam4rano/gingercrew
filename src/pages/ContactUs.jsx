@@ -110,7 +110,11 @@ const ContactUs = () => {
 
         <textarea
           rows="4"
-          className="block p-2.5 w-full mx-auto text-sm text-gray-900 bg-gray-50  border dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          className="appearance-none block
+                  w-full px-3 py-2 border border-gray-300
+                  placeholder-gray-500 text-gray-900
+                  focus:outline-none focus:ring-indigo-500
+                  focus:border-indigo-500 focus:z-10 sm:text-sm"
           placeholder="Description"
         ></textarea>
         <button className="bg-black hover:bg-gray m-4 w-full hover:text-gray-100 text-white font-bold rounded text-md h-[40px] mx-auto">

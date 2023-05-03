@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import AnimatedLetter from '../components/AnimatedLetter';
 import imageOne from '../assets/image1.png'
 import imageTwo from "../assets/image3.png";
+import ImageCard from "../components/imageCard";
 
 const HeroSection = () => {
   // const [letterClass, setLetterClass] = useState("text-animate");
@@ -15,8 +16,32 @@ const HeroSection = () => {
   //   return () => clearTimeout(timer);
   // }, []);
 
+
+  // <div className="flex flex-col md:mx-auto">
+  //           <img
+  //             src={imageOne}
+  //             alt="logo"
+  //             className="pr-4 rounded-md min-w-[150px]"
+  //           />
+  //           <div className="text-center pt-4">
+  //             <h1 className="text-black">Industry</h1>
+  //             <h1 className="text-black font-bold">Saas</h1>
+  //           </div>
+  //         </div>
+  //         <div className="flex flex-col ">
+  //           <img
+  //             src={imageTwo}
+  //             alt="logo"
+  //             className=" rounded-md min-w-[150px]"
+  //           />
+  //           <div className=" text-center pt-4">
+  //             <h1 className="text-black">Industry</h1>
+  //             <h1 className="text-black font-bold">Saas</h1>
+  //           </div>
+  //         </div>
+
   return (
-    <div className="bg-[#DFEBF0] min-h-[950px] md:h-[1000px] sm:h-[1100px] pt-[50px] w-full flex flex-col md:p-2 sm:p-2">
+    <div className="bg-[#DFEBF0] min-h-[950px] md:h-[1000px] sm:h-[1300px] pt-[50px] w-full flex flex-col md:p-2 sm:p-2">
       <div className="flex flex-col justify-center sm:items-center align-middle p-[150px] sm:mb-[3rem] md:mb-4 sm:w-[360px] sm:mx-auto md:w-full sm:pt-[50px]">
         {/* <h1 className="relative text-[64px] leading-12 font-medium font-coolvetica text-white">
           <AnimatedLetter
@@ -47,29 +72,9 @@ const HeroSection = () => {
         </h1>
       </div>
       <div className="flex flex-row h-[350px] justify-around pb-[70px] w-full md:flex-col md:pt-8 sm:flex-col sm:pt-10">
-        <div className="flex flex-row max-w-[800px] h-[350px] sm:justify-around md:p-[4rem]">
-          <div className="flex flex-col md:mx-auto">
-            <img
-              src={imageOne}
-              alt="logo"
-              className="pr-4 rounded-md min-w-[150px]"
-            />
-            <div className="text-center pt-4">
-              <h1 className="text-black">Industry</h1>
-              <h1 className="text-black font-bold">Saas</h1>
-            </div>
-          </div>
-          <div className="flex flex-col ">
-            <img
-              src={imageTwo}
-              alt="logo"
-              className=" rounded-md min-w-[150px]"
-            />
-            <div className=" text-center pt-4">
-              <h1 className="text-black">Industry</h1>
-              <h1 className="text-black font-bold">Saas</h1>
-            </div>
-          </div>
+        <div className="flex flex-row max-w-[800px] h-[350px] sm:h-70 sm:justify-around justify-around sm:flex-col md:p-[4rem]">
+          <ImageCard imageUrl={imageOne} headline="Industry" body="SaaS" />
+          <ImageCard imageUrl={imageOne} headline="Industry" body="SaaS" />
         </div>
         <div className=" p-2 sm:w-[320px] w-[400px] md:p-4 pt-2 md:mx-auto sm:mx-auto sm:pt-10">
           <div className="flex flex-col text-[24px] pb-4 sm:hidden">
