@@ -73,15 +73,15 @@ const About = () => {
             <h1 className="text-white sm:text-[18px]">Completed Projects</h1>
           </div>
         </div>
-        <hr className="md:p-2 w-full p-2" />
-        <h1 className="text-white text-[24px] text-center p-8 flex items-center mx-auto h-[72px] w-full m-[50px] sm:text-[20px] ">
+        <hr className="md:p-2 w-full p-4" />
+        <h1 className="text-white text-[24px] text-center p-4 flex items-center mx-auto h-[72px] w-full m-[50px] sm:text-[20px] ">
           By staying connected with us, we can make your product idea come to
           reality more quickly with our efficient work rates on creation of
           technology products for businesses of every level
         </h1>
-        <hr className="w-full p-2" />
+        <hr className="w-full p-4 pb-[30px]" />
 
-        <div className="mx-auto max-w-[800px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] md:w-[500px]"></div>
+        <div className="mx-auto max-w-[800px] sm:w-[300px] h-[400px] bg-[#FFFFFF] m-[50px] pb-[50px] md:w-[500px]"></div>
         <div className="flex flex-row justify-between p-8 sm:justify-between">
           <h1 className="text-[24px] max-w-[500px] text-white sm:text-[18px] sm:w-[150px]">
             We build digital products that are world-class. We help deliver
@@ -89,7 +89,7 @@ const About = () => {
             and technical blend
           </h1>
           <div className="sm:w-1/2 ">
-            <button className="bg-white hover:bg-black hover:text-white text-black font-bold rounded sm:w-[150px] sm:text-center sm:flex sm:justify-center sm:align-middle max-w-[220px] flex align-middle text-[20] p-3 h-[50px]">
+            <button className="bg-white hover:bg-black hover:text-white text-black font-bold rounded w-[140px] sm:text-center sm:flex sm:justify-center sm:align-middle flex align-middle text-[20] p-3 pl-8 h-[50px]">
               About Us
             </button>
           </div>

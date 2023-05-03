@@ -19,12 +19,12 @@ const moreCta = () => {
       </div>
       <div className="flex flex-row justify-evenly mx-auto pt-4 ">
         <Link className="pr-[40px]">
-          <button className="text-white bg-black font-bold rounded w-[140px] text-md sm:text-[14px] h-[40px]">
+          <button className="text-white bg-black font-bold rounded w-[140px] text-[14px] sm:text-[14px] h-[40px]">
             Start Your Project
           </button>
         </Link>
         <Link>
-          <button className="bg-white border-2 border-black text-black sm:text-[14px] font-bold rounded w-[140px] text-md h-[40px]">
+          <button className="bg-white border-2 border-black text-black sm:text-[14px] font-bold rounded w-[140px] text-[14px] h-[40px]">
             Schedule A Call
           </button>
         </Link>

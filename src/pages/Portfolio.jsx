@@ -9,7 +9,7 @@ import imageFour from "../assets/image2.png";
 
 const Portfolio = () => {
   return (
-    <div className="h-[1440px] sm:h-[1100px] w-full text-black bg-[#DADADA] p-8">
+    <div className="h-[1500px] sm:h-[1100px] w-full text-black bg-[#DADADA] p-8">
       <div className="p-4 w-[800px] sm:w-[320px]">
         <h1 className="pb-8 text-[30px] font-bold sm:text-[20px] sm:text-center">
           SELECTED WORKS
@@ -66,7 +66,7 @@ const Portfolio = () => {
         </div>
         <div className="flex flex-row justify-around w-full">
           <h1 className="text-[24px] font-bold">Looking For More</h1>
-          <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded w-[200px] text-md h-[50px]">
+          <button className="bg-white hover:bg-black hover:text-white text-black font-bold py-2 rounded w-[140px] text-md h-[50px]">
             All Projects
           </button>
         </div>

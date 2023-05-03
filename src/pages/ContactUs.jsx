@@ -57,7 +57,7 @@ const ContactUs = () => {
             type="password"
             autoComplete="current-password"
             required
-            className="appearance-none relative block
+            className="appearance-none block
                   w-full px-3 py-2 border border-gray-300
                   placeholder-gray-500 text-gray-900
                   focus:outline-none focus:ring-indigo-500
@@ -71,7 +71,7 @@ const ContactUs = () => {
             type="email"
             autoComplete="current-password"
             required
-            className="appearance-none relative block
+            className="appearance-none block
                   w-full px-3 py-2 border border-gray-300
                   placeholder-gray-500 text-gray-900
                   focus:outline-none focus:ring-indigo-500
@@ -85,7 +85,7 @@ const ContactUs = () => {
             type="password"
             autoComplete="current-password"
             required
-            className="appearance-none relative block
+            className="appearance-none block
                   w-full px-3 py-2 border border-gray-300
                   placeholder-gray-500 text-gray-900
                   focus:outline-none focus:ring-indigo-500
@@ -99,7 +99,7 @@ const ContactUs = () => {
             type="password"
             autoComplete="current-password"
             required
-            className="appearance-none relative block
+            className="appearance-none block
                   w-full px-3 py-2 border border-gray-300
                   placeholder-gray-500 text-gray-900
                   focus:outline-none focus:ring-indigo-500

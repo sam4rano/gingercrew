@@ -16,7 +16,7 @@ const HeroSection = () => {
   // }, []);
 
   return (
-    <div className="bg-[#DFEBF0] min-h-[1100px] md:h-[1000px] sm:h-[1000px] pt-[50px] w-full flex flex-col md:p-2 sm:p-2">
+    <div className="bg-[#DFEBF0] min-h-[950px] md:h-[1000px] sm:h-[1100px] pt-[50px] w-full flex flex-col md:p-2 sm:p-2">
       <div className="flex flex-col justify-center sm:items-center align-middle p-[150px] sm:mb-[3rem] md:mb-4 sm:w-[360px] sm:mx-auto md:w-full sm:pt-[50px]">
         {/* <h1 className="relative text-[64px] leading-12 font-medium font-coolvetica text-white">
           <AnimatedLetter
