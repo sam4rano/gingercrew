@@ -61,9 +61,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex flex-wrap items-center justify-around md:justify-around bg-white p-2 opacity-90 w-full sm:justify-around md:w-100%">
-      <Link to="/" className="flex items-center text-black">
-        <span className="font-bold">GINGER</span>CREW
+    <nav className="flex flex-wrap items-center justify-around sm:bg-[#1E1E20CC] fixed top-0 left-0 right-0 md:justify-around bg-white p-2 opacity-90 w-full sm:justify-around md:w-100%">
+      <Link
+        to="/"
+        className="flex items-center text-black sm:text-white sm:text-[25px]"
+      >
+        <span className="font-bold sm:text-white">GINGER</span>CREW
       </Link>
       <button
         type="button"
@@ -107,7 +110,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/services"
-            className="block mt-4 md:inline-block md:mt-0 text-black mr-4 md:mr-2 md:text-[14px] "
+            className="block mt-4 md:inline-block md:mt-0 sm:text-white text-black mr-4 md:mr-2 md:text-[14px] "
           >
             Services
           </Link>
@@ -115,7 +118,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/portfolio"
-            className="block mt-4 md:inline-block md:mt-0 text-black mr-4  md:mr-2 md:text-[14px]"
+            className="block mt-4 md:inline-block md:mt-0 sm:text-white text-black mr-4  md:mr-2 md:text-[14px]"
           >
             Portfolio
           </Link>
@@ -123,7 +126,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/about-us"
-            className="block mt-4 md:inline-block md:mt-0 text-black  mr-4 md:mr-2 md:text-[14px]"
+            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white  mr-4 md:mr-2 md:text-[14px]"
           >
             About us
           </Link>
@@ -131,7 +134,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/process"
-            className="block mt-4 md:inline-block md:mt-0 text-black  mr-4 md:mr-2 md:text-[14px]"
+            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white  mr-4 md:mr-2 md:text-[14px]"
           >
             Process
           </Link>
@@ -139,7 +142,7 @@ const Navbar = () => {
         <li>
           <Link
             to="/livetools"
-            className="block mt-4 md:inline-block md:mt-0 text-black mr-4 md:mr-2 md:text-[14px]"
+            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white mr-4 md:mr-2 md:text-[14px]"
           >
             Live Tools
           </Link>
@@ -147,13 +150,13 @@ const Navbar = () => {
         <li>
           <Link
             to="/blogs"
-            className="block mt-4 md:inline-block md:mt-0 text-black md:text-[14px]"
+            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white md:text-[14px]"
           >
             Blogs
           </Link>
         </li>
       </ul>
-      <div className=" md:p-[6px] md:text-[12px] sm:text-[13px] p-[8px] text-black text-[16px] border-solid border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
+      <div className=" md:p-[6px] md:text-[12px] sm:text-[13px] sm:text-white p-[8px] text-black text-[16px] border-solid sm:pl-[20px] sm:border-white border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
         <Link to="/contact">Start A Project</Link>
       </div>
     </nav>

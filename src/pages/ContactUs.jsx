@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
-    <div
-      className="p-4 flex flex-row justify-around bg-[#F5F5F5] h-[600px] sm:flex-col sm:h-[900px]"
-    >
+    <div className="p-4 flex flex-row justify-around bg-[#F5F5F5] h-[600px] sm:flex-col sm:h-[900px]">
       <div className="w-1/2 sm:mx-auto sm:w-full">
         <div className="flex flex-col">
           <p to="/" className="flex items-center text-black">
@@ -112,10 +110,10 @@ const ContactUs = () => {
 
         <textarea
           rows="4"
-          className="block p-2.5 w-[625px] md:w-[365px] sm:w-[320px] mx-auto text-sm text-gray-900 bg-gray-50  border dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          className="block p-2.5 w-full mx-auto text-sm text-gray-900 bg-gray-50  border dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Description"
         ></textarea>
-        <button className="bg-black hover:bg-gray m-4 w-[625px] md:w-[365px] sm:w-[320px] hover:text-gray-100 text-white font-bold rounded text-md h-[40px] mx-auto">
+        <button className="bg-black hover:bg-gray m-4 w-full hover:text-gray-100 text-white font-bold rounded text-md h-[40px] mx-auto">
           Get A Quote
         </button>
       </div>

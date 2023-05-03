@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-[1200px] bg-[#1E1E20] w-full sm:h-[1300px]">
+    <div className="h-[1200px] bg-[#1E1E20] w-full sm:h-[1450px]">
       <div>
-        <div className="flex flex-row justify-around pt-[20px] pb-[40px] m-[50px]">
+        <div className="flex flex-row sm:flex-col sm:justify-center sm:items-center sm:align-middle justify-around pt-[20px] pb-[40px] m-[50px]">
           <div>
-            <div className="flex flex-row">
+            <div className="flex flex-row ">
               <h1 className="font-bold text-[80px] text-white sm:text-[50px]">
                 20
               </h1>
@@ -27,6 +27,7 @@ const About = () => {
             </div>
             <h1 className="text-white sm:text-[18px]">Happy clients</h1>
           </div>
+          
           <div>
             <div className="flex flex-row">
               <h1 className="font-bold text-[80px] text-white sm:text-[50px]">
