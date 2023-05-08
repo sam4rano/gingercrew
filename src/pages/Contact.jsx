@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ContactUs = () => {
+const Contact = () => {
   return (
-    <div className="p-4 flex flex-row justify-around bg-[#F5F5F5] h-[600px] sm:flex-col sm:h-[900px]">
+    <div className="p-4 flex flex-row justify-around bg-[#F5F5F5] h-[600px] sm:flex-col sm:h-[900px]" id="contact">
       <div className="w-1/2 sm:mx-auto sm:w-full">
         <div className="flex flex-col">
           <p to="/" className="flex items-center text-black">
@@ -25,7 +25,7 @@ const ContactUs = () => {
               >
                 <path
                   d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
               </svg>
             </Link>
@@ -125,4 +125,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contact;

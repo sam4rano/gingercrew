@@ -1,20 +1,19 @@
 // import Navbar from "./components/Navbar";
 import Footer from "../pages/Footer";
-import Info from "../pages/Info";
 import Slider from "../pages/Slider";
-import ContactUs from "../pages/ContactUs";
+import Contact from "../pages/Contact";
 import Services from "../pages/Services";
 import About from "../pages/About";
 import Testimonial from "../pages/Testimonial";
-import WhatWeDo from "../pages/WhatWeDo";
 import HeroSection from "../pages/HeroSection";
 import Navbar from "../components/Navbar";
-import MoreCta from "../pages/MoreCta";
+import Process from "../pages/Process";
 import Portfolio from "../pages/Portfolio";
 
 
 
-const Layout = () => {
+
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -22,13 +21,13 @@ const Layout = () => {
       <Slider />
       <About />
       <Portfolio />
-      <Info />
+      <Services />
       <Testimonial />
-      <ContactUs />
-      <MoreCta />
+      <Contact />
+      <Process />
       <Footer />
     </>
   );
 };
 
-export default Layout;
+export default Home;

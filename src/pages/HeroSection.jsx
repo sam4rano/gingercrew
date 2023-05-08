@@ -41,7 +41,7 @@ const HeroSection = () => {
   //         </div>
 
   return (
-    <div className="bg-[#DFEBF0] min-h-[950px] md:h-[1000px] sm:h-[1300px] pt-[50px] w-full flex flex-col md:p-2 sm:p-2">
+    <div className="bg-[#DFEBF0] min-h-[950px] md:h-[1000px] sm:h-[1300px] pt-[50px] w-full flex flex-col md:p-2 sm:p-2" id='herosection'>
       <div className="flex flex-col justify-center sm:items-center align-middle p-[150px] sm:mb-[3rem] md:mb-4 sm:w-[360px] sm:mx-auto md:w-full sm:pt-[50px]">
         {/* <h1 className="relative text-[64px] leading-12 font-medium font-coolvetica text-white">
           <AnimatedLetter
@@ -53,7 +53,7 @@ const HeroSection = () => {
         <h1 className="text-[45px] text-black font-bold mb-8 sm:text-[30px] sm:w-full sm:text-center text-center mx-auto md:text-[38px] md:w-full">
           WE TRANSFORM YOUR IDEA INTO POSSIBLE REALITIES
         </h1>
-        <h1 className="text-[16px]  mb-4 sm:text-[12px] sm:flex-row sm:w-full sm:justify-around p-md text-black text-center leading-4 flex flex-row justify-around">
+        <div className="text-[16px]  mb-4 sm:text-[12px] sm:flex-row sm:w-full sm:justify-around p-md text-black text-center leading-4 flex flex-row justify-around">
           <h1 className="sm:mx-auto]">Our Client love to work with us</h1>
           <div className="flex sm:flex-row ">
             <span className="flex flex-row pl-[-3rem]">
@@ -69,7 +69,7 @@ const HeroSection = () => {
             </span>
             <span className="font-bold pl-1 ">GINGER</span>CREW
           </div>
-        </h1>
+        </div>
       </div>
       <div className="flex flex-row h-[350px] justify-around pb-[70px] w-full md:flex-col md:pt-8 sm:flex-col sm:pt-10">
         <div className="flex flex-row max-w-[800px] h-[350px] sm:h-70 sm:justify-around justify-around sm:flex-col md:p-[4rem]">

@@ -1,166 +1,146 @@
-// import { Link } from "react-router-dom";
-
-// const Navbar = () => {
-//   return (
-//     <>
-
-//       <nav
-//         className="flex flex-row justify-between list-none bg-[#FFFFFF] box-border
-//  text-black p-4 text-lg fixed top-0 left-0 right-0 opacity-90 w-full"
-//       >
-//         <li className="p-[8px]">
-//           <Link to="/">
-//             <span className="font-bold">GINGER</span>CREW
-//           </Link>
-//         </li>
-//         <ul className="flex flex-row justify-between items-center space-x-2 md:space-x-8 text-[12px]">
-//           <li className="text-black">
-//             <Link to="/services">Services</Link>
-//           </li>
-//           <li>
-//             <Link to="/portfolio">Portfolio</Link>
-//           </li>
-//           <li>
-//             <Link to="/about-us">About us</Link>
-//           </li>
-//           <li>
-//             <Link to="/process">Process</Link>
-//           </li>
-//           <li>
-//             <Link to="/live-tools">Live tools</Link>
-//           </li>
-//           <li>
-//             <Link to="/blogs">Blogs</Link>
-//           </li>
-//         </ul>
-//         <li className="p-[8px] text-[12px] border-solid border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
-//           <Link to="/contact">Start A Project</Link>
-//         </li>
-//       </nav>
-
-//       <hr />
-//     </>
-//   );
-// }
-
-// export default Navbar;
 
 
-//fixed top-0 left-0 right-0
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Link as Linkto } from 'react-scroll';
 
-
-
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+export default function Navbar() {
+  const [open, setOpen] = useState(false);
 
   return (
-    <nav className="flex flex-wrap items-center justify-around sm:bg-[#1E1E20CC] fixed top-0 left-0 right-0 md:justify-around bg-white p-2 opacity-90 w-full sm:justify-around md:w-100%">
-      <Link
-        to="/"
-        className="flex items-center text-black sm:text-white sm:text-[25px]"
-      >
-        <span className="font-bold sm:text-white">GINGER</span>CREW
-      </Link>
-      <button
-        type="button"
-        className="block md:hidden border border-white rounded px-3 py-2 ml-auto"
-        onClick={toggleMenu}
-      >
-        {isOpen ? (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
+    <nav className="w-full bg-white shadow">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div>
+          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <Link to="/" className="text-2xl font-bold">
+              <span className="font-semi-bold">GINGER</span>CREW
+            </Link>
+            <div className="md:hidden">
+              <button
+                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                onClick={() => setOpen(!open)}
+              >
+                {open ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              open ? "block" : "hidden"
+            }`}
           >
-            <path
-              fill="#000"
-              d="M17.174 15.819L10 8.645l-7.174 7.174a.786.786 0 1 1-1.112-1.112L8.888 7.532 1.714.358a.786.786 0 1 1 1.112-1.112L10 6.421l7.174-7.174a.786.786 0 1 1 1.112 1.112L11.112 7.532l7.174 7.174a.786.786 0 1 1-1.112 1.113z"
-            />
-          </svg>
-        ) : (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill=""
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="#000"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        )}
-      </button>
-      <ul
-        className={`${
-          isOpen ? "block" : "hidden"
-        } md:flex md:items-center w-full md:w-auto`}
-      >
-        <li>
-          <Link
-            to="/services"
-            className="block mt-4 md:inline-block md:mt-0 sm:text-white text-black mr-4 md:mr-2 md:text-[14px] "
-          >
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/portfolio"
-            className="block mt-4 md:inline-block md:mt-0 sm:text-white text-black mr-4  md:mr-2 md:text-[14px]"
-          >
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/about-us"
-            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white  mr-4 md:mr-2 md:text-[14px]"
-          >
-            About us
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/process"
-            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white  mr-4 md:mr-2 md:text-[14px]"
-          >
-            Process
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/livetools"
-            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white mr-4 md:mr-2 md:text-[14px]"
-          >
-            Live Tools
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/blogs"
-            className="block mt-4 md:inline-block md:mt-0 text-black sm:text-white md:text-[14px]"
-          >
-            Blogs
-          </Link>
-        </li>
-      </ul>
-      <div className=" md:p-[6px] md:text-[12px] sm:text-[13px] sm:text-white p-[8px] text-black text-[16px] border-solid sm:pl-[20px] sm:border-white border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
-        <Link to="/contact">Start A Project</Link>
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <li className="text-gray-600 hover:text-blue-600">
+                <Linkto
+                  to="/services"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  delay={1000}
+                >
+                  Services
+                </Linkto>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Linkto
+                  to="/portfolio"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  delay={1000}
+                >
+                  Portfolio
+                </Linkto>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Linkto
+                  to="/about"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  delay={1000}
+                >
+                  About us
+                </Linkto>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Linkto
+                  to="/process"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  delay={1000}
+                >
+                  Process
+                </Linkto>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Linkto
+                  to="/livetools"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  delay={1000}
+                >
+                  Livetools
+                </Linkto>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Linkto
+                  to="/blogs"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  delay={1000}
+                >
+                  Blogs
+                </Linkto>
+              </li>
+              
+              <li className="p-[8px] border-solid border-2 border-slate-950 rounded-lg hover:text-white hover:bg-black">
+                <Link to="/contact">Start A Project</Link>
+          
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
   );
-};
-
-export default Navbar;
+}

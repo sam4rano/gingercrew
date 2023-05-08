@@ -9,7 +9,7 @@ import imageFour from "../assets/image2.png";
 
 const Portfolio = () => {
   return (
-    <div className="h-[1500px] sm:h-[1100px] w-full text-black bg-[#DADADA] p-8">
+    <div className="h-[1500px] sm:h-[1100px] w-full text-black bg-[#DADADA] p-8" id='portfolio'>
       <div className="p-4 w-[800px] sm:w-[320px]">
         <h1 className="pb-8 text-[30px] font-bold sm:text-[20px] sm:text-center">
           SELECTED WORKS

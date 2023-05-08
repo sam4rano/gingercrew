@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-[1200px] bg-[#1E1E20] w-full sm:h-[1450px]">
+    <div className="h-[1200px] bg-[#1E1E20] w-full sm:h-[1450px]" id='about'>
       <div>
         <div className="flex flex-row sm:flex-col sm:justify-center sm:items-center sm:align-middle justify-around pt-[20px] pb-[40px] m-[50px]">
           <div>
@@ -14,13 +14,13 @@ const About = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="blue"
                 className="w-8 h-8"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
@@ -37,13 +37,13 @@ const About = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="red"
                 className="w-8 h-8"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
@@ -59,13 +59,13 @@ const About = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="yellow"
                 className="w-8 h-8"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 4.5v15m7.5-7.5h-15"
                 />
               </svg>
